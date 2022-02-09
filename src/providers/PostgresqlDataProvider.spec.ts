@@ -18,7 +18,7 @@ describe('Data Provider', () => {
         test('should return two features', async () => {
             const dataProvider = new JsonDataProvider({ data: { "test-a": true, "test-b": false } });
             const underflag = new Underflag({ dataProvider });
-            const res = await underflag.getAll();
+            const res = await underflag.getAllFeatures();
             expect(res).toBeInstanceOf(Array);
             expect(res.length).toEqual(2);
         });
