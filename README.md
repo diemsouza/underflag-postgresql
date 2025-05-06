@@ -3,6 +3,10 @@
 
 This is a Postgresql provider for underflag (feature flag/feature toggle)
 
+> ⚠️ This repository has been **archived** for visual organization on GitHub.  
+> It is part of the [`underflag`](https://github.com/diemsouza/underflag) monorepo, where it's maintained and updated.  
+> The package is still available on [NPM](https://www.npmjs.com/package/underflag-postgresql).
+
 ## Install
 
 Using npm:
